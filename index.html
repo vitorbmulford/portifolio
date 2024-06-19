@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vitor B Mulford Portfolio</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#">
+          <h1 class="logo">Vitor B Mulford</h1>
+        </a>
+
+        <button
+          class="nav-toggle-btn"
+          aria-label="Toggle Menu"
+          data-nav-toggle-btn
+        >
+          <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+          <ion-icon name="close-outline" class="close-icon"></ion-icon>
+        </button>
+
+        <nav class="navbar container">
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Início</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>Sobre Mim</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="navbar-link" data-nav-link
+                >Portfolio</a
+              >
+            </li>
+
+            <li>
+              <a href="#skills" class="navbar-link" data-nav-link
+                >Habilidades</a
+              >
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-banner">
+              <img
+                src="./assets/images/hero-banner.jpg"
+                width="800"
+                height="864"
+                loading="lazy"
+                alt="Ethan's Photo"
+                class="img-cover"
+              />
+
+              <div class="elem elem-1">
+                <p class="elem-title">2</p>
+
+                <p class="elem-text">Anos Programando</p>
+              </div>
+
+              <div class="elem elem-3">
+                <ion-icon name="trophy"></ion-icon>
+              </div>
+            </div>
+
+            <div class="hero-content">
+              <h2 class="hero-title">
+                <span>Olá, eu sou</span>
+                <strong>Vitor Bebiano Mulford</strong>Estudante de Engenharia de
+                Software na FIAP
+              </h2>
+
+              <p class="hero-text">
+                Atualmente estou cursando Engenharia de Software na FIAP,
+                apaixonado por tecnologia e programação.
+              </p>
+
+              <div class="btn-group">
+                <a
+                  href="https://www.linkedin.com/in/vitor-bebiano-mulford-29107427b/"
+                  class="btn"
+                  style="background-color: rgb(75, 102, 255)"
+                  target="_blank"
+                  >Linkedin</a
+                >
+              </div>
+              <br>
+              <div class="btn-group">
+                <a
+                  href="#"
+                  class="btn"
+                  style="background-color: rgb(6, 163, 40)"
+                  >+55 11 969710365</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+          <div class="about-content">
+            <p class="section-subtitle">Eu sou um Desenvolvedor</p>
+            <h2 class="h2 section-title">Desenvolvo Sites e aplicações</h2>
+            <p class="section-text">
+              Sou apaixonado por criar experiências digitais que não apenas impressionam visualmente, mas também melhoram a vida das pessoas. Desde interfaces intuitivas até funcionalidades inovadoras, meu objetivo é transformar ideias em realidade, proporcionando uma navegação fluida e envolvente para os usuários.
+            </p>
+            <p class="section-text">
+              Trabalho com dedicação para garantir que cada linha de código não apenas funcione perfeitamente, mas também contribua para uma experiência de usuário excepcional. Acredito que a harmonia entre design e desenvolvimento é essencial para criar produtos web que não apenas atendam às expectativas, mas as superem.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+        <!-- 
+        - #PORTFOLIO
+      -->
+
+        <section class="section portfolio" id="portfolio">
+          <div class="container">
+            <p class="section-subtitle" style="color: white">Portfolio</p>
+
+            <h2 class="h2 section-title">Meus Projetos</h2>
+
+            <ul class="portfolio-list">
+              <li>
+                <a
+                  href="https://armazemrestaurantegru.com"
+                  class="portfolio-card"
+                  style="
+                    background-image: url('./assets/images/portfolio-1.jpg');
+                  "
+                  target="_blank"
+                >
+                  <div class="card-content">
+                    <p class="card-subtitle">Armazem Restaurante</p>
+
+                    <h3 class="h3 card-title">Web Site</h3>
+
+                    <span class="btn-link">
+                      <span>Site</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #SKILLS
+      -->
+
+        <section class="section skills" id="skills">
+          <div class="container">
+            <p class="section-subtitle" style="color: white;">Minhas Habilidades</p>
+
+            <h2 class="h2 section-title">Eu sou um Desenvolvedor</h2>
+
+            <ul class="skills-list">
+              <li class="skills-item">
+                <div class="wrapper" style="width: 95%">
+                  <h3 class="skills-title">CSS</h3>
+
+                  <data class="skills-data" value="95">95%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 75%">
+                  <h3 class="skills-title">HTML</h3>
+
+                  <data class="skills-data" value="75">75%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 75%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 95%">
+                  <h3 class="skills-title">JavaScript</h3>
+
+                  <data class="skills-data" value="50">50%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 50%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper" style="width: 70%">
+                  <h3 class="skills-title">Python</h3>
+
+                  <data class="skills-data" value="70">70%</data>
+                </div>
+
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 70%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2022 <a href="#" class="copyright-link">Vitor Bebiano Mulford</a>. 
+        </p>
+
+
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
